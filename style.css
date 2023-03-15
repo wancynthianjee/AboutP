@@ -138,11 +138,7 @@ padding: 0 15px;
     justify-content: space-between;
     
 
-    @media only screen and(max-width:700px){
-        .service{
-          grid-template-columns: repeat(1,1fr);
-        }
-      }
+   
 
 }
 span{
@@ -190,6 +186,11 @@ span{
     margin-bottom: 4.3%;
     border-color: #FFD600;
 }
+@media only screen and(max-width:700px){
+    .service{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
 
 
 
